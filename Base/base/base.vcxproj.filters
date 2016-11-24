@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="assert.c" />
+    <ClCompile Include="auxiliary.c" />
+    <ClCompile Include="filelog.c" />
+    <ClCompile Include="kernellog.c" />
+    <ClCompile Include="memory.c" />
+    <ClCompile Include="mswstdpath.c" />
+    <ClCompile Include="stdafx.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\kassert.h" />
+    <ClInclude Include="..\include\kdefines.h" />
+    <ClInclude Include="..\include\klog.h" />
+    <ClInclude Include="..\include\kmemory.h" />
+    <ClInclude Include="..\include\kstdpath.h" />
+    <ClInclude Include="auxiliary.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="base.def" />
+  </ItemGroup>
+</Project>

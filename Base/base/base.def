@@ -1,0 +1,10 @@
+LIBRARY		Base
+
+EXPORTS
+	AssertFailure			@1
+	AssertFailureMessage	@2
+	CreateFileLog			@3
+	CreateKernelLog			@4
+	CreateStdPath			@5
+	MemoryAlloc				@6
+	MemoryFree				@7
